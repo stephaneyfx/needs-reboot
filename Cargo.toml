@@ -1,0 +1,20 @@
+[package]
+name = "needs-reboot"
+version = "0.1.0"
+authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
+edition = "2021"
+description = "Crate to check if a linux system needs to be rebooted"
+license = "0BSD"
+homepage = "https://github.com/stephaneyfx/needs-reboot"
+repository = "https://github.com/stephaneyfx/needs-reboot.git"
+keywords = ["linux", "reboot", "update"]
+
+[features]
+tool = ["clap"]
+
+[dependencies]
+clap = { version = "3.0.14", features = ["derive"], optional = true }
+
+[[bin]]
+name = "needs-reboot"
+required-features = ["tool"]
