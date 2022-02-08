@@ -10,6 +10,9 @@
 //! This can help to decide whether to reboot a system after updating it. Currently only NixOS is
 //! supported.
 //!
+//! # Features
+//! - `tool`: Enables a CLI tool to check if a system should be rebooted.
+//!
 //! # Contribute
 //! All contributions shall be licensed under the [0BSD license](https://spdx.org/licenses/0BSD.html).
 
