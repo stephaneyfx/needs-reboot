@@ -1,6 +1,6 @@
 [package]
 name = "needs-reboot"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
 edition = "2021"
 description = "Crate to check if a linux system needs to be rebooted"
